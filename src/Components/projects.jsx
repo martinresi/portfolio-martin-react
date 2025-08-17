@@ -1,5 +1,5 @@
 import {Container, Row, Col, Tab, Nav} from "react-bootstrap";
-import {ProjectCard} from "./ProjectCard";
+import {Projectcard} from "./projectcard.jsx";
 import projImg1 from "../assets/img/delsur2.png";
 import projImg2 from "../assets/img/delsur1.png";
 import projImg3 from "../assets/img/delsur3.png";
@@ -111,7 +111,7 @@ export const Projects = () => {
                                                     {
                                                         projects.map((project, index) => {
                                                             return (
-                                                                <ProjectCard
+                                                                <Projectcard
                                                                     key={index}
                                                                     {...project}
                                                                 />
@@ -125,7 +125,7 @@ export const Projects = () => {
                                                     {
                                                         projects2.map((project, index) => {
                                                             return (
-                                                                <ProjectCard
+                                                                <Projectcard
                                                                     key={index}
                                                                     {...project}
                                                                 />
@@ -140,7 +140,7 @@ export const Projects = () => {
                                                     {
                                                         projects3.map((project, index) => {
                                                             return (
-                                                                <ProjectCard
+                                                                <Projectcard
                                                                     key={index}
                                                                     {...project}
                                                                 />

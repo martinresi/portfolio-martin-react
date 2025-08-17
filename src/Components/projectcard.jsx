@@ -2,7 +2,7 @@ import {Col} from "react-bootstrap";
 
 import './Project/ProjectCard.css'
 
-export const ProjectCard = ({title, description, imgUrl, url}) => {
+export const Projectcard = ({title, description, imgUrl, url}) => {
     return (
         <Col size={12} sm={6} md={4}>
             <a href={url} target='blank'>
