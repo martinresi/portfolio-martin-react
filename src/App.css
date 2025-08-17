@@ -649,7 +649,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     align-items: end;
 }
 
-h5, h2 {
+h5, h2, h4 {
     width: 100%;
     text-align: center;
 }
