@@ -40,7 +40,7 @@ export const NavBar = () => {
         <Container>
           <Navbar.Brand href="/">
             <span className="logo-span">
-              <img src="../src/assets/img/logo-portfolio.png" alt="" />
+              <img src="/images/logo-portfolio.png" alt="" />
             </span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
