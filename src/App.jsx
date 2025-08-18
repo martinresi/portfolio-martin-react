@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavBar } from "./components/navbar.jsx";
-import { Banner } from "./components/banner.jsx";
-import { Skills } from "./components/skills.jsx";
-import { Projects } from "./components/projects.jsx";
-import { Contact } from "./components/contact.jsx";
-import { Footer } from "./components/footer.jsx";
+import { NavBar } from "./Components/navbar.jsx";
+import { Banner } from "./Components/banner.jsx";
+import { Skills } from "./Components/skills.jsx";
+import { Projects } from "./Components/projects.jsx";
+import { Contact } from "./Components/contact.jsx";
+import { Footer } from "./Components/footer.jsx";
 
 function App() {
   return (
