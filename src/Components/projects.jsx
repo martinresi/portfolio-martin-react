@@ -1,8 +1,5 @@
 import {Container, Row, Col, Tab, Nav} from "react-bootstrap";
 import {Projectcard} from "./projectcard.jsx";
-import projImg1 from "../assets/img/delsur2.png";
-import projImg2 from "../assets/img/delsur1.png";
-import projImg3 from "../assets/img/delsur3.png";
 import fortaleza from "../../public/images/fortaleza.svg";
 import papelera from "../../public/images/papelera.jpg";
 import casa from "../../public/images/casa.jpg";
@@ -30,7 +27,7 @@ export const Projects = () => {
             url: 'https://papeleralfortaleza.com.ar',
         },
         {
-            title: "Distribuidora",
+            title: "Inmobiliaria",
             description: "Diseño y Desarrollo",
             imgUrl: casa,
             url: 'https://inmobiliaria-delsur.com.ar/propiedades',
@@ -44,22 +41,22 @@ export const Projects = () => {
             url: 'https://corpresi.com/',
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Soluciones Informaticas",
+            description: "Diseño y Desarrollo",
             imgUrl: digital,
             url: 'https://digitalpower.ar/',
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Academia",
+            description: "Diseño y Desarrollo",
             imgUrl: tsf,
             url: 'https://tsffront.digitalpower.ar',
         },
     ];
     const projects3 = [
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Estudio de abogados",
+            description: "Diseño",
             imgUrl: abogados,
             url: 'https://crippaabogados.com.ar/',
         },
@@ -71,7 +68,7 @@ export const Projects = () => {
         },
         {
             title: "Template",
-            description: "Interior Design",
+            description: "Diseño de interiores",
             imgUrl: 'https://digitalpower.ar/images/interiores.png',
             url: 'https://interiores.digitalpower.ar/'
         },

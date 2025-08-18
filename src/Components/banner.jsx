@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/maxiytin.jpg";
-import { HashLink } from 'react-router-hash-link';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -67,7 +65,7 @@ export const Banner = () => {
                       <br/>
                       🚀 Mi objetivo es seguir creciendo como profesional y contribuir al desarrollo de soluciones tecnológicas modernas, eficientes y creativas.</p>
                   <a href="#connect">
-                    <button className="contact-btn" >Contactame </button>
+                    <button className="contact-btn" >Contacto </button>
                   </a>
               </div>}
             </TrackVisibility>
