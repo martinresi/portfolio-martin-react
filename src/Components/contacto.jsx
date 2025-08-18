@@ -6,7 +6,7 @@ import TrackVisibility from 'react-on-screen';
 import {post} from "../services/apiReq.js";
 import {show} from "../services/notification.js";
 
-export const Contact = () => {
+export const Contacto = () => {
     const formInitialDetails = {
         firstName: '',
         lastName: '',
@@ -57,7 +57,7 @@ export const Contact = () => {
                     <Col size={12} md={6}>
                         <TrackVisibility>
                             {({ isVisible }) =>
-                                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
+                                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contacto Us"/>
                             }
                         </TrackVisibility>
                     </Col>
